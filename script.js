@@ -16,3 +16,8 @@ document.getElementById('check-btn').addEventListener('click',function(){
         resultElement.textContent = `${inputText} is not a palindrome`;
     }
 });
+
+
+let number = 5.7;
+
+console.log(Number.isInteger(number));
